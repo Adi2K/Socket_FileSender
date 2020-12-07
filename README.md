@@ -14,7 +14,7 @@
 	./client
 ```
 	
-	*All the files that are downloaded from the server will be saved in Client folder*
+*All the files that are downloaded from the server will be saved in Client folder*
 	
 Assumption:
 The percentage display uses line (\n) as a measure of completed task and hence the task is divided accordingly
