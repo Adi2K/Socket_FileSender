@@ -21,7 +21,7 @@ The percentage display uses line (\n) as a measure of completed task and hence t
 This takes us to the assumption that each line will have no more than 1024 character in it.
 However if required it can be altered as it is defined as
 ```
-#define SIZE
+#define SIZE = 1024
 ```
 	
 Note : 
