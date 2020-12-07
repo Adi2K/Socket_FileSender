@@ -25,6 +25,6 @@ However if required it can be altered as it is defined as
 ```
 	
 Note : 
-	In order to display the % gradually increasing i have put a sleep(1) comman after each time percentage is printed
+	In order to display the % gradually increasing i have put a sleep(1) after each time percentage is printed
 
 	
