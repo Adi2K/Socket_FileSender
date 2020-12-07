@@ -1,0 +1,24 @@
+This is start of data 1
+#include <iostream>
+#include <cstdio>
+
+using namespace std;
+
+int main()
+{
+    int retVal;
+    FILE *fp;
+    char buffer[] = "Writing to a file using fwrite.";
+
+    fp = fopen("data.txt","w");
+    retVal = fwrite(buffer,sizeof(buffer),1,fp);
+    fwrite(buffer,sizeof(buffer),1,fp);
+    fwrite(buffer,sizeof(buffer),1,fp);
+    
+    cout << "fwrite returned " << retVal;
+    return 0;
+}
+
+hello world
+end data1
+
